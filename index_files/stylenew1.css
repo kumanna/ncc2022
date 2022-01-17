@@ -1,0 +1,147 @@
+
+body {
+ 	font-family: "Microsoft Sans Serif", Helvetica, sans-serif;
+ 	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 990px;
+ 	line-height: 1.5em;
+	font-size: 0.9em;
+	color: black;
+	font-weight: lighter;
+	text-align: justify;
+}
+
+div#topSide {
+    float:top;
+    text-align:justify;
+    width:980px;
+}
+
+div#leftSide {
+	float: left;
+/*	background-image: url(../images/watermark.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 692px; */
+	margin-left: 2px;
+	width: 220px; 
+	text-align: left;
+	border: 1px solid green;
+	border-radius: 10px;
+ 	box-shadow: 0px 0px 1px #888888;
+}
+
+div#rightSide {
+	float: right;
+	/*width: 200px; */
+	width: 720px;
+	margin-right:1px;
+	text-align: left;
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	padding:20px;
+}
+
+
+h1 {
+	text-align: left;
+	color: rgb(41,126,238);
+	font-size: 1.5em;
+	margin: 10px 0px 0px 2px;
+	padding: 0px 0px 0px 0px;
+}
+
+h2 {
+	text-align: left;
+	color: rgb(41,126,238);
+	font-size: 1.3em;
+	margin: 10px 0px 0px 2px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+table {
+	margin: 15px 0px 5px 0px;
+}
+
+td {
+	padding: 5px;
+}
+
+
+table tr.odd{
+	background-color: rgb(234,243,242);
+	font-weight: normal;
+	font-size: 1.05em;
+	color: rgb(15,41,174);
+}
+
+table tr.even{
+	background-color: rgb(232,236,247);
+	font-weight: normal;
+	font-size: 1.05em;
+	color: rgb(15,41,174);
+}
+
+
+a.navLink, a.navLink:visited {
+	/*color: rgb(15,41,174);*/
+	color: rgb(41,138,126);
+	font-size: 1.2em;
+	text-decoration: underline;
+	text-decoration-style:solid;
+	font-weight: bold;
+}
+
+p.futurelink {
+	color: black;
+	font-size: 1.4em;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+span.visiting {
+	color: rgb(138,160,215);
+	font-size: 1.4em;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.tiny {
+	font-weight: bold;
+	color: rgb(15,41,174);
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+
+a:hover, a:hover:visited {
+	color: rgb(41,138,126);
+	text-decoration: none;
+}
+
+#rightSide p {
+	margin-top: 0px;
+}
+
+span.backgnd {
+	background-color: #DDDDDD;
+}
+
+strong {
+	font-weight: bold;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+
+
+p.signature {
+	padding-left: 40px;
+	font-style: italic;
+}
+
